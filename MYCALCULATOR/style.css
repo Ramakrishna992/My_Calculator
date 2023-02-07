@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@600&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#header{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+.container{
+  background-color:;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  font-weight: bold;
+  width: 60px;
+  padding: 25px;
+  margin: 0 4px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+  
+}
+.row{
+  margin: 7px 0;
+}
+
+.input{
+  font-size: 24px;
+  margin: 6px;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
